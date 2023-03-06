@@ -1,0 +1,12 @@
+.NavLink {
+    color: #000;
+}
+
+.Active {
+    color: #060029;
+    text-decoration: underline;
+}
+
+i {
+    color: #8ecae6;
+}
