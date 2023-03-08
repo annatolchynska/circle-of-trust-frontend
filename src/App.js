@@ -26,20 +26,19 @@ import NotFound from './components/NotFound';
 
 function App() {
   return (
-    <div className = {styles.App}>
-      {/* heading */ }
-      < Row >
-      {/*large screens*/ }
-      < Col className = {`${styles.HeadingLgScreen} ${styles.Heading}`
-}>
-  <NavLink to="/" className={styles.HeadingLink}>
-    <h1>Circle of Trust</h1>
-  </NavLink>
-        </Col >
+    <div className={styles.App}>
+      {/* heading */}
+      <Row>
+        {/*large screens*/}
+        <Col className={`${styles.HeadingLgScreen} ${styles.Heading}`}>
+          <NavLink to="/" className={styles.HeadingLink}>
+            <h1>Circle of Trust</h1>
+          </NavLink>
+        </Col>
 
-  {/* small screens */ }
-  < Col sm = { 12} className = {`${styles.SmHeading} ${styles.NavSmScreen}`}>
-    <NavBarSmall />
+        {/* small screens */}
+        < Col sm={12} className={`${styles.SmHeading} ${styles.NavSmScreen}`}>
+          <NavBarSmall />
         </Col >
       </Row >
       <br />
@@ -88,7 +87,7 @@ function App() {
         <Col md={4} lg={3} className={styles.RightSide}>
           <FamilyProfiles />
         </Col>
-        </Row>
+      </Row>
     </div >
 
   );
