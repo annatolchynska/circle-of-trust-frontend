@@ -1,38 +1,183 @@
 .App {
+  font-family: 'Shantell Sans', sans-serif;
+}
+
+/*heading*/
+.Heading {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
+  background-color: #fff;
+  border-bottom: 1px solid #060029;
+}
+
+.Heading h1 {
+  font-family: 'Bungee', cursive;
+  color: #060029;
   text-align: center;
+  text-transform: uppercase;
+  font-size: 300%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.SmHeading {
+  background-color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.HeadingLink {
+  padding: 5px;
+}
+
+/*Navbar*/
+
+.NavSmScreen {
+  display: none;
+  z-index: 6;
+  position: fixed;
+  top: 35px;
+}
+
+.NavLgScreen {
+  position: fixed;
+  top: 135px;
+  left: 0;
+}
+
+/*left, right and center parts of page*/
+.MainContent {
+  position: relative;
+  top: 150px;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+.LeftSide {
+  border-right: 1px solid #060029;
+  height: 1000px;
+}
+
+.Middle {
+  position: relative;
+  margin: 0 auto;
+}
+
+.RightSide {
+  position: fixed;
+  right: 25px;
+  top: 150px;
+  padding: 10px;
+  border-left: 1px solid #060029;
+  height: 1000px;
+}
+
+.Image {
+  max-height: 40vh;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #060029;
+  transition: color ease-in-out 0.3s;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:hover i {
+  color: #2142b2;
+  transition: color ease-in-out 0.3s;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+i {
+  color: #b8f3f4;
+  font-size: 1.6rem;
+  padding: 7px;
+  vertical-align: middle;
+}
+
+i:hover {
+  cursor: pointer;
+  transition: color ease-in-out 0.3s;
+  color: #2142b2;
+}
+
+figure {
+  text-align: center;
+  display: inline-block;
+}
+
+/* scrollbar */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/*Media queries*/
+
+@media screen and (max-width:991px) {
+  /*heading*/
+
+  .Heading h1 {
+      font-size: 300%;
+  }
+
+  .HeadingLgScreen {
+      display: none;
+  }
+
+  /*Navbar*/
+
+  .NavLgScreen {
+      display: none;
+  }
+
+  .NavSmScreen{
+      display: block;
+      position: fixed;
+      top: 0px;
+  }
+
+  /*left, middle and right sides*/
+
+  .Middle {
+      position: relative;
+      top: -45px;
+  }
+
+  .RightSide {
+      top: 95px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width:768px) {
+  .Middle {
+      border-right: 0px;
   }
-  to {
-    transform: rotate(360deg);
+  .RightSide {
+      display: none;
   }
 }
+

@@ -26,7 +26,7 @@ import NotFound from './components/NotFound';
 
 function App() {
   return (
-    div className = { styles.App } >
+    <div className = {styles.App}>
       {/* heading */ }
       < Row >
       {/*large screens*/ }
