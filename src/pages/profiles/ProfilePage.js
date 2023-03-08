@@ -14,18 +14,14 @@ import {
     useProfileData,
     useSetProfileData,
 } from "../../contexts/ProfileDataContext";
-import { fetchMoreData } from "../../utils/utils";
-import NoResults from "../../assets/no-results.png";
 import { useCurrentUser } from "../../contexts/CurrentUserContext";
 import { Button, Image } from "react-bootstrap";
-import InfiniteScroll from "react-infinite-scroll-component";
 import { ProfileEditDropdown } from "../../components/MoreDropdown";
 
 
 
 function ProfilePage() {
     const [hasLoaded, setHasLoaded] = useState(false);
-    const [profilePosts, setProfilePosts] = useState({ results: [] });
 
     const currentUser = useCurrentUser();
     const { id } = useParams();
@@ -39,16 +35,14 @@ function ProfilePage() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const [{ data: pageProfile }, { data: profilePosts }] = await Promise.all([
+                const [{ data: pageProfile }] = await Promise.all([
                     axiosReq.get(`/profiles/${id}/`),
-                    axiosReq.get(`/achievements/?owner__profile=${id}`),
                 ]);
                 setProfileData(prevState => ({
                     ...prevState,
                     pageProfile: { results: [pageProfile] },
                 }));
 
-                setProfilePosts(profilePosts);
                 setHasLoaded(true);
             } catch (err) {
                 //console.log(err);
@@ -126,7 +120,6 @@ function ProfilePage() {
             {hasLoaded ? (
                 <>
                     {mainProfile}
-                    {mainProfilePosts}
                 </>
             ) : (
                 <Asset spinner />

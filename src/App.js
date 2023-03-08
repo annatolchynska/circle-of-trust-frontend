@@ -33,7 +33,7 @@ function App() {
       < Col className = {`${styles.HeadingLgScreen} ${styles.Heading}`
 }>
   <NavLink to="/" className={styles.HeadingLink}>
-    <h1>Appy Families</h1>
+    <h1>Circle of Trust</h1>
   </NavLink>
         </Col >
 
