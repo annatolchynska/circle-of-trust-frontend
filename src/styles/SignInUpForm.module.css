@@ -1,0 +1,19 @@
+.Link {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+  
+  .Link span {
+    color: #060029;
+  }
+  
+  .Container {
+    padding: 30px 10px;
+  }
+  
+  .Container h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }

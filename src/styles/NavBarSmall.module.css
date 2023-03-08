@@ -1,0 +1,42 @@
+.Container {
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    border-bottom: 1px solid #060029;
+}
+
+.Heading {
+    margin: 0 auto;
+}
+
+.Heading h1 {
+    font-family: 'Bungee', cursive;
+    color: #060029;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 300%;
+}
+
+.Move {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+/*media queries*/
+@media screen and (max-width: 768px) {
+    .Heading h1 {
+        font-size: 200%;
+    }
+}
+
+@media screen and (max-width: 493px) {
+    .Heading h1 {
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .Heading h1 {
+        font-size: 100%;
+    }
+}
