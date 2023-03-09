@@ -21,7 +21,7 @@ import About from './pages/About';
 import { Col, Row } from 'react-bootstrap';
 import FamilyProfiles from './pages/profiles/FamilyProfiles';
 import NotFound from './components/NotFound';
-
+import CircleOfTrust from "./assets/circle-of-trust-you1.png"
 
 
 function App() {
@@ -32,7 +32,13 @@ function App() {
         {/*large screens*/}
         <Col className={`${styles.HeadingLgScreen} ${styles.Heading}`}>
           <NavLink to="/" className={styles.HeadingLink}>
-            <h1>Circle of Trust </h1>
+            <div>
+            <h1>Circle of Trust 
+              <img alt="Circle of trust" 
+              src={CircleOfTrust} 
+              style={{ height: "70px", paddingLeft: "10px" }} />
+              </h1>
+            </div>
           </NavLink>
         </Col>
 
@@ -50,7 +56,7 @@ function App() {
         </Col>
 
         {/*main content*/}
-        <Col sm={12} md={4} lg={3} className={styles.Middle}>
+        <Col sm={12} md={8} lg={6} className={styles.Middle}>
           <Switch>
             <Route
               exact

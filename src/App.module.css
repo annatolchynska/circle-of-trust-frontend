@@ -55,21 +55,20 @@
 }
 
 .LeftSide {
+  position: fixed;
   height: 1000px;
   background-color: #555;
 }
 
 .Middle {
-  position: fixed;
+  position: relative;
   margin: 0 auto;
+  padding-left: 150px;
   background-color: #555;
 }
 
 .RightSide {
-  position: fixed;
-  right: 25px;
-  top: 150px;
-  padding: 10px;
+  background-color: #555;
   border-left: 1px solid yellow;
   height: 1000px;
 }
