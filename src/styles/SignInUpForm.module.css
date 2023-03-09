@@ -1,19 +1,24 @@
 .Link {
     text-decoration: none;
+    color: orange;
     text-align: center;
     display: block;
     margin: auto;
   }
   
   .Link span {
-    color: #060029;
+    color: orange;
+    background-color: #555;
   }
   
   .Container {
     padding: 30px 10px;
+    color: orange;
+    background-color: #555;
   }
   
   .Container h2 {
     text-align: center;
     text-transform: uppercase;
+    background-color: #555;
   }

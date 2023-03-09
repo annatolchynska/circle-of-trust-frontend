@@ -16,17 +16,17 @@ function About() {
                 This is a family/friends app that can do all that in one place !.
             </p>
             <p>
-                You can like and comment on each others memo's, you can visit
+                You can like and comment on each others memos, you can visit
                 each others profile, to tell them "I'm watching you!", you can have your todo list
                 all in one handy place.
             </p>
             <p>
-                You can edit and delete your own comments, memo's, and todo list
+                You can edit and delete your own comments, memos, and todo list
                 everything is easy.
                 Why not to have a look around and then sign up for your own account, which is also editable
             </p>
             <p>
-                Have fun in the Circle of Trust!.
+                You're priviledged to be inside the Circle of trust!
             </p>
             <br />
             

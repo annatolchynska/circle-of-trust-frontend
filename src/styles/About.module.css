@@ -1,7 +1,10 @@
 .Content {
+    background-color: #555;
     text-align: center;
+    color: orange;
 }
 
 .Content h2 {
     text-transform: uppercase;
+    color: greenyellow;
 }

@@ -1,12 +1,11 @@
 .NavLink {
-    color: #000;
+    color: orange;
 }
 
 .Active {
-    color: #060029;
-    text-decoration: underline;
+    color: orange;
 }
 
 i {
-    color: #8ecae6;
+    color: rgb(255, 0, 119);
 }
