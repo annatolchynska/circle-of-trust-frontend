@@ -11,6 +11,8 @@
   
   .RightSide {
     text-align: right;
+    color: greenyellow;
+    background-color: #555;
   }
   
   @media screen and (max-width: 991px) {

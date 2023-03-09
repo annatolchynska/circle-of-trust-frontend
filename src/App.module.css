@@ -55,13 +55,12 @@
 }
 
 .LeftSide {
-  border-right: 1px solid yellow;
   height: 1000px;
   background-color: #555;
 }
 
 .Middle {
-  position: relative;
+  position: fixed;
   margin: 0 auto;
   background-color: #555;
 }

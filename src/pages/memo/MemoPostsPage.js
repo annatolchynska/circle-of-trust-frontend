@@ -57,7 +57,7 @@ function MemoPostsPage({ message }) {
                         onChange={(event) => setQuery(event.target.value)}
                         type="text"
                         className="mr-sm-2"
-                        placeholder="Search memo's"
+                        placeholder="Search memos"
                         aria-label="search memos"
 
                     />

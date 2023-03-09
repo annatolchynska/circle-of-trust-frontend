@@ -1,8 +1,11 @@
 .Heading {
     text-align: center;
     justify-content: flex-start;
+    color: greenyellow;
+    background-color: #555;
 }
 
 .Heading h2 {
     text-transform: uppercase;
+    color: rgb(255, 0, 123);
 }
