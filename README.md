@@ -35,6 +35,11 @@ The design idea of the app is based on the "Circle of trust" from the movie "Mee
 
 The app is highly interactive and encourages participation from all family members, even younger children. Its user-friendly design ensures that everyone can easily navigate through the various features and functionalities. Whether it's a simple reminder to pick up groceries or a more complex task like planning a family vacation, this app makes it easy for families to communicate and stay on top of their busy lives. Overall, it's a great tool for keeping the family organized while having fun at the same time.
 
+### Favicon
+The main logo was converted on favicon page and implemented to the website.
+
+<img src="./public/favicon-16x16.png">
+
 ### Colors
 The primary design aim was to create a simple,entertaining and functional appearance: simple colour theming feature. This approach was ideally suited to the desire for a clean and simple site.
 
