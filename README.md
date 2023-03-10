@@ -21,3 +21,13 @@ A GitHub issue was created for each user story.
 A project kanban board was used to track progress, with user stories moved between 'Todo', 'In Progress' and 'Done' columns.
 
 <img src="./readme_assets/kanban.png">
+
+## Data models
+Data models are documented in the read-me for the [Circle of Trust Django Rest Framework API](https://github.com/annatolchynska/circle-of-trust-drf).
+
+## Design
+
+### Colors
+The primary design aim was to create a simple,entertaining and functional appearance: simple colour theming feature. This approach was ideally suited to the desire for a clean and simple site.
+
+A gray background was chosen for the site's main theme to provide a clean, straighforward and uncluttered look.
