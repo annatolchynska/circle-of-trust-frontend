@@ -18,7 +18,7 @@ module.exports = {
         "react"
     ],
     "rules": {
-        "react/prop-types": 0
+        "react/no-set-state": "off"
     },
     "settings": {
         "react": {
