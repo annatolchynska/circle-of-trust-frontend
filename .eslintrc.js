@@ -18,7 +18,10 @@ module.exports = {
         "react"
     ],
     "rules": {
-        "react/prop-types": "off"
+        "react/prop-types": "off",
+        "react/no-children-prop": "off",
+        "react/display-name": "off",
+        "no-empty": "off"
     },
     "settings": {
         "react": {
