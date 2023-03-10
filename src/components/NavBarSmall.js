@@ -123,7 +123,7 @@ const NavBar = () => {
                         onClick={() => setExpanded(!expanded)}
                         aria-controls="basic-navbar-nav"
                     />
-                    <Navbar.Collapse id="basic-navbar-nav">
+                    <Navbar.Collapse id="basic-navbar-nav-sm">
                         <Nav className="mr-auto flex-column text-left">
                             <NavLink
                                 exact

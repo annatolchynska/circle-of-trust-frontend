@@ -9,7 +9,7 @@
 - [The circle of Trust (frontend)](https://circle-of-trust-frontend.herokuapp.com/)
 - [The circle of Trust (Backend)](https://circle-of-trust.herokuapp.com/)
 
-### Circle of trust is a website, inspired by the movie "Meet the Fockers", for using by the trusted circle of people: family, friends, co-workers etc.This app helps to share memos and tasks in a secure and private environment. It is perfect for people who want to stay connected and organized. Instead of stickers, pinned to the fridge/whiteboard, or groupchats in whatsapp, you can use this app. 
+### Circle of trust is a website, inspired by the movie "Meet the Fockers", for using by the trusted circle of people: family, friends, co-workers etc. This app helps to share memos and tasks in a secure and private environment. It is perfect for people who want to stay connected and organized. Instead of stickers, pinned to the fridge/whiteboard, or groupchats in whatsapp, you can use this app. 
 
 ## Project goals
 The primary goals of the web app are to:
@@ -200,7 +200,21 @@ npm start
 
 <img src="./readme_assets/css_test.png">
 
+- ESLint JavaScript validator
 
+Issues corrected include: unnecessary semi-colons at the end of statements, unescaped apostrophies and quotes in html text, missing React import statements. Everything was fixed.
+
+- Lighthouse testing
+
+- Manual testing
+CRUD Testing
+Table was made to check a user could Create, Read, Update and/or Delete items.
+
+LI meaning the user was logged in, and so could Create, and read.
+LO meaning the user was not logged in and so could only read.
+LI/O meaning the user was logged in and the owner so had full CRUD functionality.
+
+<img src="./readme_assets/front-crud-test.png">
 
 
 ## Components
