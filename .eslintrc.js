@@ -11,7 +11,7 @@ module.exports = {
     "overrides": [
     ],
     "parserOptions": {
-        "ecmaVersion": "latest",
+        "ecmaVersion": "2015",
         "sourceType": "module"
     },
     "plugins": [
