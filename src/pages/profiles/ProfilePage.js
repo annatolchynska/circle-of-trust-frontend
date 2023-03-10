@@ -73,7 +73,7 @@ function ProfilePage() {
                             />
                         </Col>
                 <Col lg={6}>
-                    <h3 className="m-2">{profile?.owner}</h3>
+                    <p className="m-2">{profile?.owner}</p>
                     <Row className="justify-content-center no-gutters">
                         <Col xs={4} className="my-2">
                             <div>{profile?.memo_posts_count}</div>

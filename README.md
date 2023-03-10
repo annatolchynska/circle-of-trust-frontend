@@ -31,3 +31,15 @@ Data models are documented in the read-me for the [Circle of Trust Django Rest F
 The primary design aim was to create a simple,entertaining and functional appearance: simple colour theming feature. This approach was ideally suited to the desire for a clean and simple site.
 
 A gray background was chosen for the site's main theme to provide a clean, straighforward and uncluttered look.
+
+The main colour palettes used for light and dark modes are:
+
+| Colour |Light mode value   |Dark mode value   |   |   |
+|---|---|---|---|---|
+|  Primary - used for logo and key UI elements |  #e5006a |  #add5f7 |   |   |
+| Secondary - used for logo, notifications badge and calendar highlighting  | #9c13bf  |  #e6e6e6 |   |   |
+|  Accent - used for section/page headings |  #215ba6 | #d8ebf2  |   |   |
+|  Neutral - used for sub-headings |   #4a4a4a |  #ffffff |   |   |
+|  Base-100 - main background colour |  #fbfbfb |  #1c1c1c |   |   |
+|  Base-200 - darker background colour |  #f8f8f8 | #141414  |   |   |
+|  Base-300 - second darker background colour |  #d6d6d6 | #141414  |   |   |
