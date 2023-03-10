@@ -190,6 +190,10 @@ npm start
 7. Do a terminal command to add, commit and push the code to Github
 8. Then you can implement all the necessary libraries.
 
+## Testing
+
+
+
 ## Components
 
 - Here the components that were setup throughout the project and were reused throughout.
