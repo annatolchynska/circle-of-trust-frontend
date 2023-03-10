@@ -27,19 +27,21 @@ Data models are documented in the read-me for the [Circle of Trust Django Rest F
 
 ## Design
 
+The design idea of the app is based on the "Circle of trust" from the movie "Meet the Fockers". With its bright colors and whimsical design, it adds a touch of cheer to even the most mundane household tasks. The interface is intentionally messy, almost like a virtual bulletin board, where family members can leave each other memos, reminders, and to-do lists.
+
+The app is highly interactive and encourages participation from all family members, even younger children. Its user-friendly design ensures that everyone can easily navigate through the various features and functionalities. Whether it's a simple reminder to pick up groceries or a more complex task like planning a family vacation, this app makes it easy for families to communicate and stay on top of their busy lives. Overall, it's a great tool for keeping the family organized while having fun at the same time.
+
 ### Colors
 The primary design aim was to create a simple,entertaining and functional appearance: simple colour theming feature. This approach was ideally suited to the desire for a clean and simple site.
 
 A gray background was chosen for the site's main theme to provide a clean, straighforward and uncluttered look.
 
 The main colour palettes used for light and dark modes are:
+- The main background-color: #555
+- The color of profile font: #FFFFFF
+- The menu icons color: rgb(255, 0, 119)
+- The menu font color: orange
+- The hover menu icons color: greenyellow
+- The menu font color hover: blue
 
-| Colour |Light mode value   |Dark mode value   |   |   |
-|---|---|---|---|---|
-|  Primary - used for logo and key UI elements |  #e5006a |  #add5f7 |   |   |
-| Secondary - used for logo, notifications badge and calendar highlighting  | #9c13bf  |  #e6e6e6 |   |   |
-|  Accent - used for section/page headings |  #215ba6 | #d8ebf2  |   |   |
-|  Neutral - used for sub-headings |   #4a4a4a |  #ffffff |   |   |
-|  Base-100 - main background colour |  #fbfbfb |  #1c1c1c |   |   |
-|  Base-200 - darker background colour |  #f8f8f8 | #141414  |   |   |
-|  Base-300 - second darker background colour |  #d6d6d6 | #141414  |   |   |
+
