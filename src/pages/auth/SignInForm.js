@@ -106,7 +106,7 @@ function SignInForm() {
 
             <div>
                 <p>
-                    Don't have an account?
+                    Don&apos;t have an account?
                     <Link className={styles.Link} to="/signup">
                         <span>Sign up now!</span>
                     </Link>
@@ -114,7 +114,7 @@ function SignInForm() {
             </div>
             <br />
         </Container>
-    );
-};
+    )
+}
 
 export default SignInForm;

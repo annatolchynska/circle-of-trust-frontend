@@ -17,7 +17,7 @@ function About() {
             </p>
             <p>
                 You can like and comment on each others memos, you can visit
-                each others profile, to tell them "I'm watching you!", you can have your todo list
+                each others profile, to tell them &quot;I&apos;m watching you!&quot;, you can have your todo list
                 all in one handy place.
             </p>
             <p>
@@ -26,7 +26,7 @@ function About() {
                 Why not to have a look around and then sign up for your own account, which is also editable
             </p>
             <p>
-                You're priviledged to be inside the Circle of trust!
+                You&apos;re priviledged to be inside the Circle of trust!
             </p>
             <br />
             

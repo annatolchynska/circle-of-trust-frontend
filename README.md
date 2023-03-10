@@ -1,5 +1,9 @@
 ## CIRCLE OF TRUST (frontend)
 <img src="./src/assets/circle-of-trust-you1.png">
+
+
+<img src="./readme_assets/responsiveness.png">
+
 ---
 
 - [The circle of Trust (frontend)](https://circle-of-trust-frontend.herokuapp.com/)
@@ -191,6 +195,11 @@ npm start
 8. Then you can implement all the necessary libraries.
 
 ## Testing
+
+- W3CSS testing was successful- no issues detected.
+
+<img src="./readme_assets/css_test.png">
+
 
 
 
