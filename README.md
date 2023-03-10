@@ -42,6 +42,7 @@ A gray background was chosen for the site's main theme to provide a clean, strai
 
 The main colour palettes used for light and dark modes are:
 - The main background-color: #555
+- The heading font color: #7EFFFF
 - The color of profile font: #FFFFFF
 - The menu icons color: rgb(255, 0, 119)
 - The menu font color: orange
@@ -55,7 +56,6 @@ is Shantell Sans, that is messy and looks like real handwriting.
 For future features I'd like to add the ability for circle members to chat to each other and implement the feature of tagging each other in memos or tasks.
 
 ## Features
-
 ### Logo and Heading
 The name and logo of the app is added on the top of the webapp
 
@@ -207,6 +207,9 @@ Issues corrected include: unnecessary semi-colons at the end of statements, unes
 - Lighthouse testing
 
 - Manual testing
+
+All links, forms and menu work properly.
+
 CRUD Testing
 Table was made to check a user could Create, Read, Update and/or Delete items.
 
@@ -215,7 +218,6 @@ LO meaning the user was not logged in and so could only read.
 LI/O meaning the user was logged in and the owner so had full CRUD functionality.
 
 <img src="./readme_assets/front-crud-test.png">
-
 
 ## Components
 

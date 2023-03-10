@@ -13,7 +13,7 @@ const FamilyProfiles = () => {
             {popularProfiles.results.length ? (
                 <>
                     <br />
-                    <h2>Family</h2>
+                    <h2>Members of Circle</h2>
                     {popularProfiles.results.map((profile) => (
                             <Profile key={profile.id} profile={profile} />
 

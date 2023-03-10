@@ -57,7 +57,7 @@ function App() {
         </Col>
 
         {/*main content*/}
-        <Col sm={12} md={8} lg={6} className={styles.Middle}>
+        <Col sm={12} md={8} lg={4} className={styles.Middle}>
           <Switch>
             <Route
               exact
